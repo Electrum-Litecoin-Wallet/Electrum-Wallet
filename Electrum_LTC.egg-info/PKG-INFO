@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: Electrum-LTC
+Version: 4.3.2
+Summary: Lightweight Litecoin Wallet
+Home-page: https://electrum-ltc.org
+Author: Thomas Voegtlin
+Author-email: thomasv@electrum.org
+License: MIT Licence
+Requires-Python: >=3.8.0
+License-File: LICENCE
+License-File: AUTHORS
+Requires-Dist: qrcode
+Requires-Dist: protobuf<4,>=3.12
+Requires-Dist: qdarkstyle>=2.7
+Requires-Dist: aiorpcx<0.23,>=0.22.0
+Requires-Dist: aiohttp<4.0.0,>=3.3.0
+Requires-Dist: aiohttp_socks>=0.3
+Requires-Dist: certifi
+Requires-Dist: bitstring
+Requires-Dist: attrs>=19.2.0
+Requires-Dist: dnspython>=2.0
+Provides-Extra: hardware
+Requires-Dist: hidapi<0.11; extra == "hardware"
+Requires-Dist: trezor[hidapi]<0.14,>=0.13.0; extra == "hardware"
+Requires-Dist: safet>=0.1.5; extra == "hardware"
+Requires-Dist: keepkey>=6.3.1; extra == "hardware"
+Requires-Dist: btchip-python>=0.1.32; extra == "hardware"
+Requires-Dist: ckcc-protocol>=0.7.7; extra == "hardware"
+Requires-Dist: bitbox02>=6.0.0; extra == "hardware"
+Requires-Dist: cbor<2.0.0,>=1.0.0; extra == "hardware"
+Requires-Dist: pyserial<4.0.0,>=3.5.0; extra == "hardware"
+Requires-Dist: protobuf<4,>=3.12; extra == "hardware"
+Requires-Dist: colorama<0.4.6; extra == "hardware"
+Provides-Extra: gui
+Requires-Dist: pyqt5; extra == "gui"
+Provides-Extra: crypto
+Requires-Dist: cryptography>=2.6; extra == "crypto"
+Provides-Extra: tests
+Requires-Dist: pycryptodomex>=3.7; extra == "tests"
+Requires-Dist: cryptography>=2.6; extra == "tests"
+Requires-Dist: pyaes>=0.1a1; extra == "tests"
+Provides-Extra: full
+Requires-Dist: hidapi<0.11; extra == "full"
+Requires-Dist: trezor[hidapi]<0.14,>=0.13.0; extra == "full"
+Requires-Dist: safet>=0.1.5; extra == "full"
+Requires-Dist: keepkey>=6.3.1; extra == "full"
+Requires-Dist: btchip-python>=0.1.32; extra == "full"
+Requires-Dist: ckcc-protocol>=0.7.7; extra == "full"
+Requires-Dist: bitbox02>=6.0.0; extra == "full"
+Requires-Dist: cbor<2.0.0,>=1.0.0; extra == "full"
+Requires-Dist: pyserial<4.0.0,>=3.5.0; extra == "full"
+Requires-Dist: protobuf<4,>=3.12; extra == "full"
+Requires-Dist: colorama<0.4.6; extra == "full"
+Requires-Dist: pyqt5; extra == "full"
+Requires-Dist: cryptography>=2.6; extra == "full"
+Provides-Extra: fast
+Requires-Dist: cryptography>=2.6; extra == "fast"
+
+Lightweight Litecoin Wallet

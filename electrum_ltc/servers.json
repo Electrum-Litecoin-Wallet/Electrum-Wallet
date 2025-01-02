@@ -1,0 +1,44 @@
+{
+    "46.101.3.154": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4.2"
+    },
+    "backup.electrum-ltc.org": {
+        "pruning": "-",
+        "s": "443",
+        "t": "50001",
+        "version": "1.4.2"
+    },
+    "electrum-ltc.bysh.me": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4.2"
+    },
+    "electrum.ltc.xurious.com": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4.2"
+    },
+    "electrum.privateservers.network": {
+        "pruning": "-",
+        "s": "50005",
+        "t": "50004",
+        "version": "1.4.2"
+    },
+    "electrum1.cipig.net": {
+        "pruning": "-",
+        "s": "20063",
+        "t": "10063",
+        "version": "1.4.2"
+    },
+    "ltc.rentonisk.com": {
+        "pruning": "-",
+        "s": "50002",
+        "t": "50001",
+        "version": "1.4.2"
+    }
+}
