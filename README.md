@@ -2,17 +2,17 @@
 
 ```
 Licence: MIT Licence
-Author: Thomas Voegtlin
+Author: Electrum Litecoin Community
 Port Maintainer: Pooler
 Language: Python (>= 3.8)
-Homepage: https://electrum-ltc.org/
+Homepage: https://electrumlitecoin.com/
 ```
 
 
 ## Getting started
 
 _(If you've come here looking to simply run Electrum-LTC,
-[you may download it here](https://electrum-ltc.org/#download).)_
+[you may download it here](https://electrumlitecoin.com/#download).)_
 
 Electrum-LTC itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
@@ -141,7 +141,3 @@ Implementing new features, or improving/refactoring the codebase, is of course
 also welcome, but to avoid wasted effort, especially for larger changes,
 we encourage discussing these on the issue tracker or IRC first.
 
-Besides [GitHub](https://github.com/pooler/electrum-ltc),
-most communication about Electrum-LTC development happens on IRC, in the
-`#electrum-ltc` channel on Libera Chat. The easiest way to participate on IRC is
-with the web client, [web.libera.chat](https://web.libera.chat/#electrum-ltc).
